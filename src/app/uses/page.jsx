@@ -12,9 +12,9 @@ const items = [
     groupName: 'Workstation',
     items: [
       {
-        title: '16” MacBook Pro, M1 Max, 64GB RAM (2022)',
+        title: '15” Lenovo ThinkPad, Intel Core, 64GB RAM (2021)',
         description:
-          'I was using an Intel-based 16” MacBook Pro prior to this and the difference is night and day. I’ve never heard the fans turn on a single time, even under the incredibly heavy loads I put it through with our various launch simulations.',
+          'I was using a Core i5-based laptop prior to this and the difference is night and day. I’ve never heard the fans turn on a single time, even under the incredibly heavy loads I put it through with our various data analysis and software development tasks.',
       },
       {
         title: 'Dell UltraSharp U2717D',
@@ -39,7 +39,7 @@ const items = [
       {
         title: 'Rain Design mStand',
         description:
-          'I’ve been using this stand for my MacBook Pro for a few years now and it’s great. It’s sturdy, looks good, and keeps my laptop cool.',
+          'I’ve been using this stand for my laptop for a few years now and it’s great. It’s sturdy, looks good, and keeps my laptop cool.',
       },
     ],
   },
@@ -49,7 +49,7 @@ const items = [
       {
         title: 'Visual Studio Code',
         description:
-          'I use VS Code for all of my development work. It’s fast, has great extensions, and is highly customizable.',
+          'I use VS Code for all of my software development work. It’s fast, has great extensions, and is highly customizable.',
       },
       {
         title: 'iTerm2 + Oh My Zsh',
@@ -59,17 +59,17 @@ const items = [
     ],
   },
   {
-    groupName: 'Design',
+    groupName: 'Data Analysis',
     items: [
       {
-        title: 'Figma',
+        title: 'Jupyter Notebook',
         description:
-          'I use Figma for all of my design work. It’s fast, has great collaboration features, and is highly customizable.',
+          'I use Jupyter Notebook for interactive computing and data analysis. It’s versatile, supports multiple programming languages, and is widely used in the data science community.',
       },
       {
-        title: 'Whimsical',
+        title: 'Python Libraries (Pandas, NumPy, Matplotlib, Seaborn)',
         description:
-          'I use Whimsical for all of my wireframing and flowcharting. It’s fast, has great collaboration features, and is highly customizable.',
+          'I rely on Python libraries such as Pandas, NumPy, Matplotlib, and Seaborn for data manipulation, analysis, and visualization in my data analysis projects.',
       },
     ],
   },
@@ -79,7 +79,7 @@ const items = [
       {
         title: 'Notion',
         description:
-          'I use Notion for all of my note-taking and knowledge management. It’s fast, has great collaboration features, and is highly customizable.',
+          'I use Notion for all of my note-taking, project management, and collaboration needs. It’s versatile, highly customizable, and helps me stay organized.',
       },
       {
         title: 'Alfred',
@@ -90,12 +90,13 @@ const items = [
   },
 ];
 
+
 export default function Uses() {
   return (
     <div>
     <Profile
         title="My Equipment"
-        content="As a computer science programmer, my equipment typically consists of the following:"
+        content="As a Software Engineer, my equipment typically consists of the following:"
       />
       <UsesSection items={items} />
     </div>

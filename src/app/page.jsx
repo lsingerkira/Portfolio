@@ -7,33 +7,33 @@ import SignupWidget from '../components/SignupWidget/SignupWidget.jsx';
 // Define your work experiences data
 const experiences = [
   {
-    logo: './images/slack.png',
-    organization: 'Slack',
-    jobTitle: 'Software Engineer',
-    startYear: 2016,
+    logo: './images/Ensign.jpg',
+    organization: 'Ensign College',
+    jobTitle: 'Data Analyst',
+    startYear: 2021,
     endYear: 'Present'
   },
   {
-    logo: './images/spotify.jpeg',
-    organization: 'Spotify',
-    jobTitle: 'Software Engineer',
-    startYear: 2014,
+    logo: './images/black.jpg',
+    organization: 'Rodrigues & Singer Advogados',
+    jobTitle: 'Tax Law Specialist',
+    startYear: 2015,
+    endYear: 2017
+  },
+  {
+    logo: './images/queiroz.jpg',
+    organization: 'Construtora Queiroz Galvão S.A.',
+    jobTitle: 'Consulting Lawyer',
+    startYear: 2013,
     endYear: 2015
   },
-  {
-    logo: './images/audible.webp',
-    organization: 'Audible',
-    jobTitle: 'Software Engineer',
-    startYear: 2012,
-    endYear: 2013
-  },
-  {
-    logo: './images/microsoft (2).svg',
-    organization: 'Microsoft',
-    jobTitle: 'Software Engineer',
-    startYear: 2010,
-    endYear: 2011
-  }
+  // {
+  //   logo: './images/microsoft (2).svg',
+  //   organization: 'Microsoft',
+  //   jobTitle: 'Software Engineer',
+  //   startYear: 2010,
+  //   endYear: 2011
+  // }
   // Add more experiences as needed
 ];
 const skills = [
@@ -44,22 +44,22 @@ const skills = [
 
 const articles = [
   {
-    date: 'Dec 25, 2023',
-    title: 'Miguel Squad in the house',
-    content: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
-    link: 'https://medium.com/the-research-nest/everything-you-need-to-know-about-react-ab24da4275ea',
+    date: 'Apr 10, 2024',
+    title: 'Stack Overflow',
+    content: '"Empowering the world to develop technology through collective knowledge."',
+    link: 'https://stackoverflow.com/',
   },
   {
-    date: 'Dec 25, 2023',
-    title: 'Lorem ipsum dolor sit amet',
-    content: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
-    link: 'https://medium.com/the-research-nest/everything-you-need-to-know-about-react-ab24da4275ea',
+    date: 'Apr 10, 2024',
+    title: 'The Flip Side',
+    content: '"Were doing a little maintenance and will be back soon."',
+    link: 'https://www.theflipside.io/',
   },
   {
-    date: 'Sep 2, 2020',
-    title: 'Lorem ipsum dolor sit amet',
-    content: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
-    link: 'https://medium.com/javascript-scene/the-missing-introduction-to-react-62837cb2fd76',
+    date: 'Apr 10, 2024',
+    title: 'Tableau Public',
+    content: '"Welcome to Tableau Public. A free platform to explore, create, and publicly share data visualizations online."',
+    link: 'https://public.tableau.com/app/discover',
   },
 ];
 
@@ -69,18 +69,22 @@ const Home = () => {
       <div className="articles">
         <main>
           <div className="article-card-header">
-            <img className="avatar" src='./images/miguel.png' alt="Avatar" />
+            <img className="avatar" src='./images/leo.jpg' alt="Avatar" />
             <div>
               <time>{/* Add your date here */}</time>
-              <h1>Software Engineer, Father, and Believer</h1>
+              <h1>Leandro Singer Afonso</h1>
             </div>
           </div>
           <p className="intro-paragraph">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Software Engineer, Data Analyst, Scrum Master, Project Manager.
           </p>
           <div className="social-media-icons">
+            <a href = "https://www.facebook.com/profile.php?id=100011484652659">
             <img src="./images/ficon.webp" alt="Facebook" />
+            </a>
+            <a href = "https://twitter.com/lsingerkira">
             <img src="./images/xicon.png" alt="Twitter" />
+            </a>
             {/* Add more social media icons as needed */}
           </div>
         </main>

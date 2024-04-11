@@ -1,4 +1,4 @@
-import './ArticleCard.css'; 
+import './ArticleCard.css';
 import PropTypes from 'prop-types';
 
 const ArticleCard = ({ date, title, content, link }) => {
@@ -11,7 +11,7 @@ const ArticleCard = ({ date, title, content, link }) => {
       <p data-testid={'articleCardContent'}>{content}</p>
 
       <a href={link} data-testid={'articleCardLink'}>
-        Read article
+        Open WebPage
       </a>
     </article>
   );
