@@ -38,6 +38,7 @@ const companies = [
   //   description: "Description of company 6",
   //   link: "https://www.company6.com",
   // },
+  //
 ];
 
 export default function Projects() {
